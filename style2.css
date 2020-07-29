@@ -1,0 +1,53 @@
+body{
+	margin:0px;
+}
+.cars{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	align-self: auto;
+}
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	margin-top: 10px;
+}
+img{
+	margin : 10px;
+	transition: all 1s;
+}
+img:hover {
+	transform: scale(1.1);
+}
+.content{
+	text-align:center;
+}
+a{
+	font-size:30px;
+	font-family: 'Balsamiq Sans', cursive;
+}
+.buffer{
+	height: 50px;
+	
+}
+.btn{
+	font-weight: 700;
+	border-radius: 300px; 
+	text-transform: uppercase;
+}
+.btn-primary{
+	background-color:#F05F44; 
+	border-color: #F05F44;
+}
+.btn-primary:hover {
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 4px;
+}
+.btn-xl{
+	padding: 1rem 2rem;
+}
